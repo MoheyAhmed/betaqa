@@ -1,0 +1,844 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;900&family=Poppins&display=swap');
+.dark-mode{
+    background-color: #111;
+}
+.dark-mode h1,.dark-mode h2,.dark-mode h3,.dark-mode h4,.dark-mode p{
+    color:#fff !important
+}
+.dark-mode .navbar{
+    background-color: #111 !important;
+}
+.dark-mode .navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+.navbar{
+    background-color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left:10px ;
+    padding-right:10px ;
+    color: #000;
+}
+.navbar-light .navbar-nav svg{
+    margin-top: 10px;
+    border-left: 1px solid #E4E4E4;
+    padding-left: 20px;
+    width: auto;
+}
+.navbar-light .navbar-nav button{
+    width: 108px;
+    height: 41px;
+    left: 1252px;
+    top: 26px;
+    border: unset;
+    color:#fff;
+    background: #1DA1F2;
+    border-radius: 8px;
+}
+
+header{
+    background-image: url("../img/Rectangle\ 47.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+header .container{
+    max-width: 90% !important;
+}
+header .content_item{
+    padding: 50px 30px;
+}
+header .content_item h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 117%;
+    /* or 117% */
+    margin-top: 15%;
+    padding: 5px 20px;
+    color: #222222;
+}
+header .content_item p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 35px;
+    padding: 5px 20px;
+    /* or 175% */
+    color: #777777;
+}
+header .content_item button{
+    background: #1DA1F2;
+    border-radius: 10px;
+    color:#fff;
+    border:1px solid #1DA1F2;
+    width: 182px;
+    height: 60px;
+}
+header .content_item form{
+    padding: 5px 30px !important;
+}
+header .content_item input{
+    font-family: 'Poppins';
+    font-style: normal;
+    width: 358px;
+    height: 60px;
+    background: #FEFEFE;
+    border: 1px solid #DAD3D3;
+    border-radius: 10px;
+    border-left: unset;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    margin-right: 10px !important;
+    outline: none !important;
+}
+header .img_item img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+header .content_item input::placeholder { 
+    color: #999;
+    opacity: 1;
+}
+span.mySpanClass {
+    font-family: 'Poppins';
+    font-style: normal;
+    background-color: #fff;
+    border-right: unset;
+    font-weight: 700;
+    font-size: 20px;
+}
+.input-group-text{
+    padding-right: unset;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important
+}
+header .content_item input{
+    padding-left: 5px;
+}
+
+@media(max-width:550px){
+    header .content_item{
+        padding: unset !important;
+    }
+    header .content_item h3{
+        font-size: 33px !important
+
+    }
+    header .content_item p{
+        font-size: 14px !important
+
+    }
+    header .content_item button{
+        display: block;
+        margin: auto;
+
+    }
+    .navbar-brand{
+        margin-left: 10px !important;
+    }
+}
+
+.second_hero h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 194%;
+    color: #464646;
+    margin-bottom: unset;
+}
+.second_hero p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 162%;
+    color: #828282;
+}
+
+/* ======================= Start Price Plan Section ===================== */
+
+.price_plan {
+    position: relative;
+    background-image: url("../img/price_plan_back.svg") !important;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 500px; */
+    margin-bottom: 3rem ;
+}
+
+.price_plan_img{
+    cursor: pointer;
+    position: relative;
+    left: -12rem;
+}
+
+.price_plan .right_div {
+    margin-left: -2rem !important;
+    position: relative;
+    top: 3rem;
+}
+
+.price_plan .right_div .top h3{
+    font-family: 'Poppins' !important;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 1.7rem;
+}
+
+.price_plan .right_div .top p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #575757;
+    line-height: 25px !important;
+}
+
+.price_plan .right_div .pricing .card{
+    width: 318px;
+    padding: 1rem 1rem 0.5rem 1.3rem;
+    border: 1px solid #D0D0D0;
+    border-radius: 14px;
+}
+
+.price_plan .right_div .pricing .card .top span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.price_plan .right_div .order{
+    cursor: pointer;
+}
+
+.price_plan .right_div .order:hover,.price_plan .right_div .order:hover span{
+    background-color: #333 !important;
+    color: #1DA1F2 !important;
+}
+
+.price_plan .right_div .pricing .card .top .order{
+    display: flex;
+    border-radius: 4px;
+    padding: 0.5rem 0.8rem;
+    background-color: #f1ecec;
+}
+
+.price_plan .right_div .pricing .card .bottom h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 0.8rem;
+}
+
+.price_plan .right_div .pricing .card .bottom p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #141414;
+    line-height: 18px;
+}
+
+@media(min-width:1145px){
+    .price_plan .right_div .pricing .card2{
+        margin-left: 1rem !important;
+    }
+}
+
+@media(max-width:1145px){
+    .price_plan_img{
+        left: -13rem;
+    }
+    .price_plan .right_div {
+        margin-left: -6rem !important;
+    }
+    .price_plan .right_div .pricing .card2{
+        margin-left: 1.3rem !important;
+    }
+    .price_plan_img img{
+        width: 260%;
+    }
+}
+
+@media(max-width:1091px){
+    .price_plan_img{
+        left: -15rem;
+    }
+    .price_plan .right_div {
+        margin-left: -9.99rem !important;
+    }
+    .price_plan .right_div .pricing .card2{
+        margin-left: 0.5rem !important;
+    }
+    .price_plan_img img{
+        width: 240%;
+    }
+}
+
+@media(max-width:991px){
+    .price_plan_img{
+        left: -16rem;
+    }
+    .price_plan .right_div {
+        margin-left: -11rem !important;
+    }
+    .price_plan .right_div .pricing .card2,.price_plan .right_div .pricing .card1{
+        width: 280px ;
+    }
+    .price_plan .right_div .pricing .card2{
+        margin-left: 2rem !important;
+    }
+    .price_plan_img img{
+        width: 270%;
+        height: 540px;
+    }
+}
+
+@media(max-width:874px){
+    .price_plan_img{
+        left: -12rem;
+    }
+    .price_plan .right_div {
+        margin-left: -9rem !important;
+    }
+    .price_plan .right_div .pricing .card2,.price_plan .right_div .pricing .card1{
+        width: 250px ;
+    }
+    .price_plan .right_div .pricing .card2{
+        margin-left: 0.5rem !important;
+    }
+    .price_plan_img img{
+        width: 240%;
+    }
+}
+
+@media(max-width:767px){
+    .price_plan_img{
+        left: 0rem;
+    }
+    .price_plan .right_div {
+        margin-left: -4rem !important;
+    }
+    .price_plan .right_div .pricing .card2,.price_plan .right_div .pricing .card1{
+        width: 280px;
+    }
+    .price_plan .right_div .pricing .card2{
+        margin-left: 0.5rem !important;
+    }
+    .price_plan_img img{
+        width: 110%;
+        height: unset;
+    }
+}
+
+@media(max-width:628px){
+    .price_plan_img{
+        left: 0rem;
+    }
+    .price_plan .right_div {
+        margin-left: -4rem !important;
+    }
+    .price_plan .right_div .pricing .card2,.price_plan .right_div .pricing .card1{
+        width: 250px;
+    }
+    .price_plan .right_div .pricing .card2{
+        margin-left: -0.4rem !important;
+    }
+    .price_plan .right_div .pricing .frame{
+        width: 520px;
+    }
+    .price_plan_img img{
+        width: 100%;
+    }
+}
+
+@media(max-width:575px){
+    .price_plan_img{
+        left: 0rem;
+    }
+    .price_plan .right_div {
+        margin-left: 0rem !important;
+    }
+    .price_plan .right_div .pricing .card2,.price_plan .right_div .pricing .card1{
+        width: 380px !important;
+        margin-right: 0 !important;
+    }
+    .price_plan .right_div .pricing .card2,.price_plan .right_div .pricing{
+        width: 380px;
+        margin-right: 0 !important;
+    }
+    .price_plan .right_div .pricing .card2{
+        margin-left: 0rem !important;
+    }
+    .price_plan .right_div .pricing .frame{
+        width: unset;
+    }
+    .price_plan_img img{
+        width: 100%;
+    }
+}
+
+@media(max-width:474px){
+    .price_plan_img{
+        left: -2rem;
+    }
+    .price_plan .right_div {
+        margin-left: 0rem !important;
+    }
+    .price_plan .right_div .pricing .card2,.price_plan .right_div .pricing .card1{
+        width: 320px !important;
+        margin-right: 0 !important;
+    }
+    .price_plan .right_div .pricing .card2,.price_plan .right_div .pricing{
+        width: 320px;
+        margin-right: 0 !important;
+    }
+    .price_plan .right_div .pricing .card2{
+        margin-left: 0rem !important;
+    }
+    .price_plan .right_div .pricing .frame{
+        width: unset;
+    }
+    .price_plan_img img{
+        width: 110%;
+    }
+}
+
+@media(max-width:443px){
+    .price_plan_img{
+        left: -4rem;
+    }
+    .price_plan .right_div {
+        margin-left: -2rem !important;
+    }
+    .price_plan .right_div .pricing .card2,.price_plan .right_div .pricing .card1{
+        width: 320px !important;
+        margin-right: 0 !important;
+    }
+    .price_plan .right_div .pricing .card2,.price_plan .right_div .pricing{
+        width: 320px;
+        margin-right: 0 !important;
+    }
+    .price_plan .right_div .pricing .card2{
+        margin-left: 0rem !important;
+    }
+    .price_plan .right_div .pricing .frame{
+        width: unset;
+    }
+    .price_plan_img img{
+        width: 120%;
+    }
+}
+
+.price_plan .right_div .pricing .frame{
+    margin-top: 2rem;
+    color: #fff;
+    padding: 1.3rem 1rem 0.5rem 1.3rem;
+    border-radius: 12px;
+    background-image: url("../img/price_plan_frame.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+}
+
+.price_plan .right_div .pricing .frame .top span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 18px; */
+}
+.price_plan .right_div .pricing .frame .top .order{
+    padding: 0.3rem 1rem 0.6rem 0.8rem;
+    border-radius: 4px;
+    background-color: #fff;
+}       
+.price_plan .right_div .pricing .frame .top .order span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    /* line-height: 18px; */
+    color: #1DA1F2;
+}       
+
+.price_plan .right_div .pricing .frame .bottom h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 0.8rem;
+}
+
+.price_plan .right_div .pricing .frame .bottom P{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* ======================== End Price Plan Section ====================== */
+
+
+
+/* ======================= Start What our user say Section ===================== */
+
+.our_user .top h3{
+    margin-top: 1.5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #050505;
+}
+
+.our_user .top p{
+    font-family: 'Poppins';
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    color: #595959;
+}
+
+.our_user .user{
+    position: relative;
+    padding: 1rem;
+    background-color:  #F4F4F4;
+    border-radius: 20px;
+}
+
+.our_user .user p{
+    position: relative;
+    background-image: url("../img/Vector1.svg");
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    padding: 0.5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #646464;
+}
+
+/* ======================== End What our user say Section ====================== */
+
+
+/* ======================= Start FaQ Section ===================== */
+
+.faq {
+    background: #F5F5F5;
+}
+
+.faq .top h3{
+    margin-top: 1.5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #050505;
+}
+
+.faq .top p{
+    font-family: 'Poppins';
+    margin-top: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    color: #595959;
+}
+
+.accordion {
+    display: block;
+    margin: auto;
+    width: 85%;
+    padding: 15px 25px;
+    box-shadow: 0.5px 0.5px 10px 0.5px #bebebe;   
+    border-radius: 25px;
+    margin-top: 50px;
+    /* background-image: radial-gradient(#0C75C0, #032F4E); */
+  }
+
+  @media(max-width:991px){
+    .accordion{
+        width: 90%;
+    }
+  }
+
+  @media(max-width:767px){
+    .accordion{
+        width: 95%;
+    }
+  }
+
+  @media(max-width:500px){
+    .accordion{
+        width: 100%;
+    }
+  }
+
+  .faq .accordion .item{
+    border-bottom: 1px solid #CECECE;
+  }
+  .accordion_btn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 13px 0px;
+    background-color: transparent;
+    border: none;
+    font-size: 19px;
+    cursor: pointer;
+    transition: 0.1s;
+  }
+
+  .accordion_btn:first-child{
+    margin: 0.5rem 0rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+  }
+  /* .accordion_btn:hover {
+    background: hsl(248, 53%, 97%);
+  }
+  
+  .item--active .accordion_btn {
+    background: hsl(248, 53%, 97%);
+  } */
+  
+  .fa-lightbulb {
+    padding-right: 10px;
+  }
+  .plus_icon {
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 0.2s ease-in-out;
+  }
+  .item--active .plus_icon {
+    transform: rotate(135deg);
+  }
+  
+  .text {
+    max-height: 0;
+    opacity: 0;
+    /* overflow: hidden; */
+    transform: translateX(20px);
+    transition: max-height 0.5s ease, opacity 0.6s, transform 0.5s;
+  }
+  .text p {
+    margin-bottom: 1rem;
+    padding: 5px 19px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 31px;
+    color: #5A5A5A;
+  }
+  
+  .item--active .text {
+    opacity: 1;
+    transform: translateX(0px);
+    max-height: 600px;
+  }
+  @media(max-width:500px){
+      .accordion{
+          width: 300px;
+      }
+      .accordion_btn{
+          font-size: 12px;
+      }
+      .heading{
+          text-align: center;
+          font-size: 18px;
+      }
+  }
+
+/* ======================== End FaQ Section ====================== */
+
+
+/* ======================= Start Your link Section ===================== */
+
+.your_link {
+    background-image: url("../img/blue_back.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+.your_link h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+  .your_link form{
+    padding: 5px 30px !important;
+}
+
+#btn2{
+    display: none;
+}
+@media(max-width:767px){
+    .your_link .link .input{
+        margin-left: 3rem !important;
+    }
+    #btn2{
+        display: block;
+    }
+    #btn1{
+        display: none;
+    }
+}
+
+.your_link button{
+    background: #090909;
+    border-radius: 10px;
+    color:#fff;
+    border:1px solid #090909;
+    width: 182px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.your_link button:hover{
+    transition: 0.4s;
+    background-color: #fff;
+    color: #1DA1F2;
+}
+
+.your_link input{
+    font-family: 'Poppins';
+    font-style: normal;
+    width: 358px;
+    height: 60px;
+    background: #FEFEFE;
+    border: 1px solid #DAD3D3;
+    border-radius: 10px;
+    border-left: unset;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    margin-right: 10px !important;
+    outline: none !important;
+}
+
+.your_link .img_item img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.your_link input::placeholder { 
+    color: #999;
+    opacity: 1;
+}
+span.mySpanClass {
+    font-family: 'Poppins';
+    font-style: normal;
+    background-color: #fff;
+    border-right: unset;
+    font-weight: 700;
+    font-size: 20px;
+}
+.input-group-text{
+    padding-right: unset;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important
+}
+.your_link input{
+    padding-left: 5px;
+}
+
+/* ======================== End Your link Section ====================== */
+
+
+/* ======================= Start Footer ===================== */
+
+.foot p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.foot .icons img{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.foot .icons img:hover{
+    transform: scale(1.2,1.2);
+}
+
+.foot ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.foot ul li{
+    margin-top: 1.8rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.foot ul li a{
+    color: #000000;
+}
+.foot ul li a:hover{
+    transition: 0.4s;
+    transform: scale(1.2,1.2);
+    color: #1DA1F2;
+}
+
+@media(max-width:767px){
+    .foot {
+        text-align: center !important;
+    }
+}
+
+/* ======================== End Footer ====================== */
