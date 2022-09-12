@@ -433,6 +433,7 @@ header .content_item input{
         margin-left: -2rem !important;
     }
     .price_plan .right_div .pricing .card2,.price_plan .right_div .pricing .card1{
+        padding: 1.5rem 1.2rem 1.2rem 1.5rem;
         width: 320px !important;
         margin-right: 0 !important;
     }
@@ -461,6 +462,12 @@ header .content_item input{
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 2rem;
+}
+
+@media(max-width:425px){
+    .price_plan .right_div .pricing .frame{
+        padding: 1.5rem 1.2rem 1.3rem 1.5rem;
+    }
 }
 
 .price_plan .right_div .pricing .frame .top span{
@@ -551,7 +558,7 @@ header .content_item input{
 /* ======================== End What our user say Section ====================== */
 
 
-/* ======================= Start FaQ Section ===================== */
+/* ======================= Start FAQ Section ===================== */
 
 .faq {
     background: #F5F5F5;
@@ -726,6 +733,18 @@ header .content_item input{
         display: none;
     }
 }
+@media(max-width:425px){
+    .your_link .link .input{
+        margin-left: 1rem !important;
+    }
+    #btn2{
+        display: block;
+        margin-top: 1rem !important;
+    }
+    #btn1{
+        display: none;
+    }
+}
 
 .your_link button{
     background: #090909;
@@ -836,7 +855,12 @@ span.mySpanClass {
 }
 
 @media(max-width:767px){
-    .foot {
+    .foot{
+        text-align: center !important;
+    }
+    .foot ul{
+        position: relative;
+        left: -1.6rem;
         text-align: center !important;
     }
 }
